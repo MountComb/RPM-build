@@ -1,0 +1,15 @@
+{
+  "name": "Fedora Mock Build Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "privileged": true,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rvsmartporting.rpm-spec-ext"
+      ]
+    }
+  }
+}
